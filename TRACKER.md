@@ -63,6 +63,12 @@ closed, the gate evidence, and the resulting percentage.
 
 ### lumen
 
+- 2026-10-20 — Registry publication: `ai.qompass/lumen` v0.1.1 is
+  live on the official MCP Registry (status active, marked latest;
+  MCPB bundle on the v0.1.1 GitHub release, SHA-256 c207e299…;
+  verified through the registry API). The bar does not move:
+  publication is not a build-stage gate.
+
 - 2026-10-20 — Stage 4 remediation briefed to Azoth: add the 30°
   arm-error adversarial to the render SSIM gate and prove the gate
   catches it, settle the base L/R naming against anatomy, and
