@@ -3,13 +3,14 @@
 > Visual status for the main Qompass AI projects. Bars move only on gated,
 > verified evidence — see [README.md](./README.md) for the rules of this board.
 
-**Data as of:** 2026-10-20 · **Projects:** 9
+**Data as of:** 2026-10-20 · **Projects:** 10
 
 ## Board
 
 | Project | Progress | State | Next step | Updated |
 | --- | --- | --- | --- | --- |
-| Strobe (Track B) | `██████░░░░░░░░░░░░░░` 30% | Decisions D1–D6 ruled; scaffold built; Lovense transport proven against tests; Stage A evidence running | Track B brief once Stage A acceptance evidence lands | 2026-10-20 |
+| atelier | `██░░░░░░░░░░░░░░░░░░` 10% | Commissioned: study + program + S1 brief complete; seven design questions ruled; GitHub home qompassai/atelier created on ruling; two lane profiles (qompass/ntranch) | S1 build dispatch when the primo Claude focus frees (Ghidra G1 running) | 2026-10-20 |
+| Strobe (Track B) | `███████░░░░░░░░░░░░░` 35% | Decisions D1–D6 all ruled; scaffold built; Lovense transport proven; gen test phase 1 gated (23 scenes cataloged, age gate zero exclusions) | Write the Track B brief (Stage A evidence gated); gen test phase 2 through atelier S1 | 2026-10-20 |
 | lumen | `███████████░░░░░░░░░` 55% | Stages 1–3 built; Stage 4 built and in remediation | Close the Stage 4 findings: render SSIM adversarial case, base L/R naming check, morph-target census | 2026-10-20 |
 | tackle | `██░░░░░░░░░░░░░░░░░░` 10% | Commissioned; program and U0 brief written | U0 spike dispatch, 2026-10-21 | 2026-10-20 |
 | fathom | `███████████░░░░░░░░░` 55% | Core server live (25 tools) + il2cpp module; Stage A GATED: la$$Load lift fully recovered, no wall; Ghidra G1 building | Gate G1; the Track B brief's evidence gap is closed | 2026-10-20 |
@@ -24,7 +25,36 @@
 Newest first within each project. One line per gated movement: the date, what
 closed, the gate evidence, and the resulting percentage.
 
+### atelier
+
+- 2026-10-20 — Board added at 10%. Commissioned as the estate's media
+  MCP: one Rust server driving image, video, and music generation
+  behind a ComfyUI backend, with two config-selected lane profiles —
+  qompass (SFW, fleet-facing) and ntranch (adult, Strobe) — whose
+  roots, logs, and outputs never mix. Study, program, and the S1
+  brief are complete; all seven design questions were ruled the same
+  day, including the license rule: alert, not deny — a model without
+  a license record is admitted with the alert stamped on results and
+  provenance manifests, and its outputs are not cleared for
+  production. The GitHub home qompassai/atelier was created on that
+  ruling. S1 is four tools and Iris only; its acceptance is the
+  Strobe gen test — the three cataloged scenes regenerated through
+  atelier's own img2img under the ntranch profile. A trigger-gated
+  convergence into lumen is planned for later; the servers stay
+  separate, with a single handoff, until the triggers are met.
+
 ### Strobe (Track B)
+
+- 2026-10-20 — Decisions D1–D6 all ruled and the gen test phase 1
+  gated: 35%. D6, ruled 2026-10-20, is the two-layer sync model —
+  music-layer output follows the chart's beat pulses, and the
+  judgement layer scales output as a continuous falling function of
+  timing offset, with a low thud on a miss. Gen test phase 1
+  cataloged 23 adult scenes; the age gate closed with zero exclusions
+  on the game's own 18+ boot-screen statement plus a full dialogue
+  corpus sweep. A three-scene test set is briefed, and phase 1.5
+  (flattened composite references and tag-form prompts) is running.
+  Phase 2 regenerates the set through atelier S1.
 
 - 2026-10-20 — Board seeded at 30%. Decisions D1–D6 ruled (D6, the W4 sync
   model, ruled 2026-10-20); Unity scaffold committed; the Lovense bridge
@@ -33,11 +63,31 @@ closed, the gate evidence, and the resulting percentage.
 
 ### lumen
 
+- 2026-10-20 — Stage 4 remediation briefed to Azoth: add the 30°
+  arm-error adversarial to the render SSIM gate and prove the gate
+  catches it, settle the base L/R naming against anatomy, and
+  characterize the unequal morph-target counts without silently
+  normalizing them. The brief waits on a doorbell tap. Also recorded
+  from lumen's side: the atelier boundary — atelier generates flat
+  media, lumen transforms sprites to 3D, and lumen may ingest
+  atelier-generated sprites as sources; the planned convergence of
+  atelier into lumen is trigger-gated, not current.
+
 - 2026-10-20 — Board seeded at 55%. Stages 1–3 built and gated; Stage 4
   (sprite-to-3D factory) built and in remediation on three gated findings:
   the render SSIM gate misses the mandated 30° arm-error adversarial, base
   L/R naming may be mirrored against anatomy, and morph-target counts differ
   across models.
+
+### models
+
+- 2026-10-20 — Letter-keyed model roster applied and verified live
+  in rose: Clara (code), Freya (fast), Mira (multimodal — carries
+  vision), Opal (operator), Sylvia (structured), and Tessa (tools)
+  answer under their own names; Aria (audio) and Vera (video) are
+  registry-only rows for now. Iris is Illustrious XL v1.1, SHA-256
+  verified byte-identical against the official release on primo.
+  MODELS.md in this repo is the roster record.
 
 ### tackle
 
@@ -59,12 +109,25 @@ closed, the gate evidence, and the resulting percentage.
 
 ### twilight
 
+- 2026-10-20 — Program amended: the Slice B Create lanes are atelier
+  client tools. Twilight consumes both atelier profiles (qompass and
+  ntranch) and keeps its gallery surface; generation itself is
+  atelier's. A2 prep — verifying the remaining engine signatures,
+  then writing the A2 brief — is Pax's next step.
+
 - 2026-10-20 — Board seeded at 15%. Slice A1 gated by Pax: core server plus
   engine detection (3 read tools), commit `9ed46e3`, clean tree. A2 (catalog
   + hardware fit + model management) is next; its prep starts with verifying
   the 12 engine signatures A1 left marked unverified.
 
 ### press
+
+- 2026-10-20 — Commissioning package complete, including the
+  honeypot design: canary endpoints and canary credentials,
+  injection quarantine in the fetch pipeline, a fail2ban blocklist
+  with decay on the hosting side, and hash-chained evidence packets
+  — with no hack-back, on attribution and CFAA grounds. The build
+  order is the owner's call, after tackle.
 
 - 2026-10-20 — Board seeded at 10%. Commissioned 2026-10-20: a small Rust
   MCP that builds, verifies, and deploys qompass.ai, with the honeypot layer
@@ -73,6 +136,11 @@ closed, the gate evidence, and the resulting percentage.
 
 ### phlow scheduler
 
+- 2026-10-20 — S1 stands delivered as an uncommitted tree; the Pax
+  gate (report read, tree verification, and the test, format, and
+  lint runs) is pending. The bar does not move until that gate
+  passes.
+
 - 2026-10-20 — Board seeded at 35%. S1 delivered by the build worker as an
   uncommitted tree (fail-closed parser, validated Job model, next-fire
   calculator, append-only store, STOP kill switch) and is in Pax's gate:
@@ -80,6 +148,11 @@ closed, the gate evidence, and the resulting percentage.
   any commit. S2 and S3 follow the gate.
 
 ### Odyssey (manuscripts)
+
+- 2026-10-20 — JGME peer reviews D-26-01056 and D-26-00815 are
+  complete; the portal submission clicks are the owner's. TKO draft
+  v1.1 stands delivered with the PQC and FDA/CISA device-precedent
+  threads carried in.
 
 - 2026-10-20 — Board seeded at 40%. The manuscript slate is active with its
   own tracker in the Odyssey repo. TKO draft v1.1 delivered 2026-10-20 (the
