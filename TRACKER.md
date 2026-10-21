@@ -27,6 +27,13 @@ closed, the gate evidence, and the resulting percentage.
 
 ### atelier
 
+- 2026-10-20 — Fleet name scrub in flight under the Owner-role
+  convention: the owner's personal name is replaced by the role
+  noun Owner in design records estate-wide, atelier first (its
+  seed documents carried 24 role references). The exception is
+  the main README where the name is resume material. This board
+  was already zero-hit.
+
 - 2026-10-20 — Board added at 10%. Commissioned as the estate's media
   MCP: one Rust server driving image, video, and music generation
   behind a ComfyUI backend, with two config-selected lane profiles —
