@@ -45,6 +45,18 @@ closed, the gate evidence, and the resulting percentage.
 
 ### Strobe (Track B)
 
+- 2026-10-20 — A detailed tracker now lives in NTRanch/Strobe
+  (TRACKER.md, commit 90f18d3): workstream bars for design, cast
+  book, scaffold, Lovense integration, the art pipeline, and
+  publication. This board keeps the summary row.
+
+- 2026-10-20 — Gen test phase 1.5 complete: flattened 1280x720
+  composite references for the three test scenes (full layer
+  accounting, deviations documented in COMPOSITES.md) and
+  Danbooru tag-form prompts added to the regen briefs, md5-
+  identical on primo and in the sandbox. Phase 2 regenerates
+  the set through atelier S1.
+
 - 2026-10-20 — Decisions D1–D6 all ruled and the gen test phase 1
   gated: 35%. D6, ruled 2026-10-20, is the two-layer sync model —
   music-layer output follows the chart's beat pulses, and the
@@ -53,7 +65,7 @@ closed, the gate evidence, and the resulting percentage.
   cataloged 23 adult scenes; the age gate closed with zero exclusions
   on the game's own 18+ boot-screen statement plus a full dialogue
   corpus sweep. A three-scene test set is briefed, and phase 1.5
-  (flattened composite references and tag-form prompts) is running.
+  (flattened composite references and tag-form prompts) followed.
   Phase 2 regenerates the set through atelier S1.
 
 - 2026-10-20 — Board seeded at 30%. Decisions D1–D6 ruled (D6, the W4 sync
