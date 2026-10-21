@@ -15,7 +15,7 @@
 | tackle | `██░░░░░░░░░░░░░░░░░░` 10% | Commissioned; program and U0 brief written | U0 spike dispatch, 2026-10-21 | 2026-10-20 |
 | fathom | `███████████░░░░░░░░░` 55% | Core server live (25 tools) + il2cpp module; Stage A GATED: la$$Load lift fully recovered, no wall; Ghidra G1 building | Gate G1; the Track B brief's evidence gap is closed | 2026-10-20 |
 | twilight | `███░░░░░░░░░░░░░░░░░` 15% | Slice A1 gated (core server + engine detection) | A2 prep: verify the remaining engine signatures, write the A2 brief | 2026-10-20 |
-| press | `██░░░░░░░░░░░░░░░░░░` 10% | Commissioned; study, program, and honeypot design complete; build not started | P0 census and pin-down when the build order is given | 2026-10-20 |
+| broadside | `██░░░░░░░░░░░░░░░░░░` 10% | Commissioned; study, program, and honeypot design complete; build not started | P0 census and pin-down when the build order is given | 2026-10-20 |
 | phlow scheduler | `███████░░░░░░░░░░░░░` 35% | S1 delivered and in Pax gate | Gate S1; then S2 (clock + dispatcher) and S3 (MCP surface) | 2026-10-20 |
 | Odyssey (manuscripts) | `████████░░░░░░░░░░░░` 40% | Slate active; tracker live; TKO draft v1.1 delivered; peer reviews current | TKO preflight (word counts, reference verification, protocol figure) | 2026-10-20 |
 | diver maps migration | `███░░░░░░░░░░░░░░░░░` 15% | S0 complete: goldens pinned for formatters, linters, LSP | S1: smallest with-local-fn samples; golden-diff must be empty | 2026-10-20 |
@@ -169,7 +169,19 @@ closed, the gate evidence, and the resulting percentage.
   + hardware fit + model management) is next; its prep starts with verifying
   the 12 engine signatures A1 left marked unverified.
 
-### press
+### broadside
+
+- 2026-10-20 — Renamed press → broadside on the Owner's ruling: the
+  honeypot commission outgrew the old name. The design package moved
+  to ~/workspace/broadside-20261020/; the crate will ship as
+  broadside-mcp (the bare crates.io name is a 2023 crate). The same
+  ruling assigns broadside the JWKS duty: broadside, not Volta,
+  publishes the estate Agent Card JWKS at /.well-known/jwks.json as
+  a signed-manifest artifact, with verify failing the build on key
+  mismatch. Site roster and subpage renamed the same day (site
+  commit 96794c9; /solutions/mcp/press is gone), and the census
+  entry renamed with it. Bar unchanged at 10% — a rename is not
+  progress.
 
 - 2026-10-20 — Commissioning package complete, including the
   honeypot design: canary endpoints and canary credentials,
