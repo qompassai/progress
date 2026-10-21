@@ -12,7 +12,7 @@
 | Strobe (Track B) | `██████░░░░░░░░░░░░░░` 30% | Decisions D1–D6 ruled; scaffold built; Lovense transport proven against tests; Stage A evidence running | Track B brief once Stage A acceptance evidence lands | 2026-10-20 |
 | lumen | `███████████░░░░░░░░░` 55% | Stages 1–3 built; Stage 4 built and in remediation | Close the Stage 4 findings: render SSIM adversarial case, base L/R naming check, morph-target census | 2026-10-20 |
 | tackle | `██░░░░░░░░░░░░░░░░░░` 10% | Commissioned; program and U0 brief written | U0 spike dispatch, 2026-10-21 | 2026-10-20 |
-| fathom | `█████████░░░░░░░░░░░` 45% | Core server live (25 tools); IL2CPP Stage A takeover running; Ghidra G1 unblocked | Gate the Stage A lift and xref census; build the Ghidra G1 read core | 2026-10-20 |
+| fathom | `███████████░░░░░░░░░` 55% | Core server live (25 tools) + il2cpp module; Stage A GATED: la$$Load lift fully recovered, no wall; Ghidra G1 building | Gate G1; the Track B brief's evidence gap is closed | 2026-10-20 |
 | twilight | `███░░░░░░░░░░░░░░░░░` 15% | Slice A1 gated (core server + engine detection) | A2 prep: verify the remaining engine signatures, write the A2 brief | 2026-10-20 |
 | press | `██░░░░░░░░░░░░░░░░░░` 10% | Commissioned; study, program, and honeypot design complete; build not started | P0 census and pin-down when the build order is given | 2026-10-20 |
 | phlow scheduler | `███████░░░░░░░░░░░░░` 35% | S1 delivered and in Pax gate | Gate S1; then S2 (clock + dispatcher) and S3 (MCP surface) | 2026-10-20 |
@@ -51,6 +51,11 @@ closed, the gate evidence, and the resulting percentage.
   published registry record. The IL2CPP Stage A worker died on 2026-10-19;
   the takeover is running under Pax. The Ghidra parity matrix passed its
   gate, unblocking the G1 read core (78 tools).
+- 2026-10-20 — Stage A gated by Pax at 55%: the takeover recovered the
+  full chart transform and key schedule statically (AES-128-CBC, string
+  vault fully reversed; Pax independently re-decoded the vault slices).
+  il2cpp tools committed locally (12eefa6), tests 156/0, apply idempotent.
+  Load test stays unnecessary. Ghidra G1 is building under Astra.
 
 ### twilight
 
