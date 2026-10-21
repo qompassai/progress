@@ -114,6 +114,30 @@ closed, the gate evidence, and the resulting percentage.
   verified byte-identical against the official release on primo.
   MODELS.md in this repo is the roster record.
 
+### MCP Registry
+
+- 2026-10-20 — Registry publication: `ai.qompass/lupin` v0.1.0 is
+  live on the official MCP Registry (status active, marked latest;
+  MCPB bundle on the v0.1.0 GitHub release, SHA-256 1399234b…;
+  verified through the registry API). With phaedrus and periscope
+  published in the same batch, the registry now carries seven
+  ai.qompass servers: eigenstyle, fathom, phlow, lumen, periscope,
+  phaedrus, lupin. qompass.ai was updated the same day (commit
+  8292580): the three roster rows read Published with registry
+  links, and the site's published-server test pins moved from four
+  to seven (70 tests green). No bar moves: publication is not a
+  build-stage gate.
+
+- 2026-10-20 — Registry publication: `ai.qompass/phaedrus` v0.1.0
+  is live on the official MCP Registry (status active, marked
+  latest; MCPB bundle on the v0.1.0 GitHub release, SHA-256
+  4c8abf6c…; verified through the registry API).
+
+- 2026-10-20 — Registry publication: `ai.qompass/periscope` v0.1.0
+  is live on the official MCP Registry (status active, marked
+  latest; MCPB bundle on the v0.1.0 GitHub release, SHA-256
+  e89eaaed…; verified through the registry API).
+
 ### tackle
 
 - 2026-10-20 — Board seeded at 10%. Commissioned as the estate's editor
